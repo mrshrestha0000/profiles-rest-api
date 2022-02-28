@@ -1,5 +1,4 @@
 # profiles REST API
-
 profile REST API course code.
 
 #creating ssh keys
@@ -16,3 +15,25 @@ vegrant up
 
 vegrant ssh
 exit
+
+#git push
+add .
+git commit -am ""
+git push origin
+
+#setup virtual Environment
+python -m venv ~/env
+source ~/env/bin/activate
+
+#install requirements
+pip install -r requirements
+
+#start project and app
+django-admin startproject profiles_project .
+python manage.py startapp profiles_api
+
+#add app in projetct
+setting -> installed app -> app_name
+
+#runserver
+python3 manage.py runserver
