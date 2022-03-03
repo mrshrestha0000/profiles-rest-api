@@ -17,7 +17,7 @@ vegrant ssh
 exit
 
 # git push
-add .
+git add .
 git commit -am ""
 git push origin
 
@@ -42,3 +42,9 @@ python3 manage.py runserver
 in env - 
 python manage.py makemigration <app name><profile_api>
 python manage.py migrate
+
+# create super user
+python manage.py createsuperuser
+Email: success123shrestha@gmail.com
+Name: Saphal     
+Password: 0000
