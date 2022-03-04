@@ -48,3 +48,13 @@ python manage.py createsuperuser
 Email: success123shrestha@gmail.com
 Name: Saphal     
 Password: 0000
+
+# API views
+create an API
+discribe the logic of our api end point
+
+# view set
+
+
+
+
